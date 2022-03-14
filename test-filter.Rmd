@@ -1,21 +1,21 @@
 ---
 title: "My title"
 author:
-  - Mario Modesto-Mata:
-      institute: [astro, med]
+  - Jane Doe:
+      institute: [wake, stark]
       equal_contributor: "yes"
       correspondence: true
-      email: paleomariomm@gmail.com
-  - name: Christopher
-    institute: astro
+      email: jdoe@hotmail.com
+  - name: Thor Odison
+    institute: wake
     equal_contributor: "yes"
-  - name: Seaghán Mhartain
-    institute: med
-  - name: Rita Yuri Ynoue
-    institute: astro
+  - name: Alan Smith
+    institute: stark
+  - name: Anthony Stark
+    institute: stark
 institute:
-  - astro: Instituto de Astronomía, Geofísica e Ciências Atmosféricas, Universidade de São Paulo
-  - med: Faculdade de Medicina, Universidade de São Paulo
+  - wake: Wake Forest University School of Medicine
+  - stark: Stark Enterprises
 date: "1 October 2018"
 output: 
   word_document:
@@ -26,6 +26,18 @@ output:
       - '--lua-filter=author-info-blocks.lua'
 ---
 
+# Introduction
+
 Does this work?
 
+Thanks to the following:
+
 <https://stackoverflow.com/questions/52918716/authors-and-affiliations-in-the-yaml-of-rmarkdown>
+
+## Data
+
+We have data available upon reasonable request.
+
+## Methods
+
+Available on request.
