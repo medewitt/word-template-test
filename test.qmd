@@ -1,0 +1,32 @@
+---
+# 1 \u00B9
+# 2 \u00B2
+# 3 \u00B3
+# 4 \u2074
+# See https://gist.github.com/molomby/9bc092e4a125f529ae362de7e46e8176
+title: "My title"
+author:
+- email: 'jane.doe\@example.edu'
+  id: Jane Doe
+  name: "Jane Doe\u00B9 \u00B2"
+  institute: "Testing"
+- id: 'John Q. Doe'
+  name: 'John Q Doe\u00B2'
+format:
+  docx:
+    reference-doc: custom-reference-doc.docx
+filters:
+  - scholarly-metadata.lua
+  - author-info-blocks.lua
+institute:
+  - "Wake Forest"
+  - "Clemson"
+---
+
+# Introducing the Template
+
+I just wanted to see what happens.
+
+## Data
+
+## Methods
